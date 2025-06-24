@@ -4,10 +4,9 @@ OwlDB NoSQL document database.
 
 ## Getting started
 
-Be sure to initialize your project using (where `<team>` is replaced
-by your team's name):
+Be sure to initialize your project using:
 
-```go mod init github.com/RICE-COMP318-FALL24/owldb-<team>```
+```go mod init github.com/ss303/OwlDB```
 
 You may then install the JSON schema package:
 
@@ -48,8 +47,7 @@ Note that if you build your program as follows:
 
 ```go build```
 
-The name of the executable will be `owldb-<team>` (where `<team>` is
-replaced by your team's name).  If instead, you would like the name to
+If instead, you would like the name to
 simply be `owldb`, you can do so as follows:
 
 ```go build -o owldb```
